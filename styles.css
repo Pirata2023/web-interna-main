@@ -27,10 +27,10 @@ header {
     color: rgb(13, 17, 20);
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-
 }
 
 footer {
@@ -47,6 +47,11 @@ h2,
 h3,
 h4 {
     font-family: 'neuropol';
+    width: 100%;
+    text-align: center;
+}
+h1{
+    letter-spacing: 8px;
 }
 
 /* selectores por clase  */
@@ -58,23 +63,22 @@ h4 {
 
 .box_main {
     width: 100%;
-    height: 5rem;
+    min-height: 5rem;
     background-color: rgb(252, 253, 253);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
     text-align: center;
-
+    text-transform: capitalize;
 }
 
 .mega_box {
     width: 30%;
     background-color: rgb(23, 30, 35);
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 5px;
-
 }
 
 .grupo1 {
@@ -103,6 +107,7 @@ h4 {
     align-items: center;
 }
 .tituloGrupo h3{
+    width: 20%;
     padding: 10px 20px;
     background-color: rgb(17, 65, 106);
     color: aliceblue;
