@@ -13,14 +13,33 @@
 /* selectores por etiqueta */
 nav {
     width: 100%;
+    background-color: rgb(23, 29, 34);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 header {
     width: 100%;
+    height: 10rem;
+    background-color: rgb(204, 206, 207);
+    color: rgb(13, 17, 20);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
 }
 
 footer {
     width: 100%;
+    background-color: rgb(23, 29, 34);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 h1,
@@ -32,61 +51,129 @@ h4 {
 
 /* selectores por clase  */
 .contenedor_main {
-    width: 100%;
+    width: 90%;
+    background-color: rgb(252, 253, 253);
+    margin: 0 auto;
 }
 
 .box_main {
     width: 100%;
+    height: 5rem;
+    background-color: rgb(252, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+
 }
 
 .mega_box {
-    width: 100%;
+    width: 30%;
+    background-color: rgb(23, 30, 35);
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 5px;
+
 }
 
 .grupo1 {
     width: 100%;
+    min-height: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .grupo2 {
     width: 100%;
+    min-height: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .tituloGrupo {
     width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloGrupo h3{
+    padding: 10px 20px;
+    background-color: rgb(17, 65, 106);
+    color: aliceblue;
 }
 
 .box1 {
-    width: 100%;
+    width: 20%;
+    height: 150px;
+    background-color: rgb(8, 32, 54);
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box2 {
-    width: 100%;
+    width: 20%;
+    height: 150px;
+    background-color: rgb(8, 32, 54);
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor {
     width: 100%;
+    height: 8rem;
+    background-color: rgb(198, 200, 203);
+    margin: 10px 0;
+
 }
 
 .fluid1 {
     width: 100%;
+    background-color: rgb(184, 185, 187);
+
 }
 
 .fluid2 {
     width: 100%;
+    background-color: rgb(165, 166, 168);
+
 }
 
 .fluid3 {
     width: 100%;
+    background-color: rgb(146, 147, 148);
+
+    
 }
 
 .fluid4 {
     width: 100%;
+    background-color: rgb(126, 127, 128);
+
 }
 
 .fluid5 {
     width: 100%;
+    background-color: rgb(104, 105, 105);
+
 }
 
 .fluid6 {
     width: 100%;
+    background-color: rgb(76, 76, 76);
+
 }
