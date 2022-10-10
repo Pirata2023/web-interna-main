@@ -1,0 +1,92 @@
+/* reseteo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts custom */
+@font-face {
+    font-family: 'neuropol';
+    src: url(./assets/fonts/neuropol\ x\ rg.ttf);
+}
+/* selectores por etiqueta */
+nav {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'neuropol';
+}
+
+/* selectores por clase  */
+.contenedor_main {
+    width: 100%;
+}
+
+.box_main {
+    width: 100%;
+}
+
+.mega_box {
+    width: 100%;
+}
+
+.grupo1 {
+    width: 100%;
+}
+
+.grupo2 {
+    width: 100%;
+}
+
+.tituloGrupo {
+    width: 100%;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.fluid1 {
+    width: 100%;
+}
+
+.fluid2 {
+    width: 100%;
+}
+
+.fluid3 {
+    width: 100%;
+}
+
+.fluid4 {
+    width: 100%;
+}
+
+.fluid5 {
+    width: 100%;
+}
+
+.fluid6 {
+    width: 100%;
+}
