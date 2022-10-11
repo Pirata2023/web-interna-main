@@ -5,16 +5,60 @@
     box-sizing: border-box;
 }
 
+/* variables */
+/* theme blue */
+:root {
+    --Claro: #4b73c9;
+    --Medio: #395696;
+    --Oscuro: #101837;
+    --masc: #88cdf6;
+    --fem: #f7dbfc;
+    --azulTrans: #0d53e9c8;
+}
+
+/* theme green */
+/* :root{
+    --Claro:#54785c;
+    --Medio:#146230;
+    --Oscuro:#050d11;
+    --masc:#c0a55b;
+    --fem:#46de40;
+} */
+/* theme yellow */
+/* :root{
+    --Claro:#a72830;
+    --Medio:#612023;
+    --Oscuro:#120f14;
+    --masc:#808484;
+    --fem:#729a8f;
+} */
+/* theme pink */
+/* :root{
+    --Claro:#e9bef0;
+    --Medio:#96699e;
+    --Oscuro:#48355c;
+    --masc:#91c0ed;
+    --fem:#9179dd;
+} */
 /* fonts custom */
 @font-face {
     font-family: 'neuropol';
     src: url(./assets/fonts/neuropol\ x\ rg.ttf);
 }
+
 /* selectores por etiqueta */
+body {
+    background-color: var(--Oscuro);
+    background-image: url(./assets/imgs/Cyberpunk-amarillo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 nav {
     width: 100%;
-    background-color: rgb(23, 29, 34);
-    color: aliceblue;
+    background-color: var(--Oscuro);
+    color: var(--masc);
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
@@ -23,8 +67,8 @@ nav {
 header {
     width: 100%;
     height: 10rem;
-    background-color: rgb(204, 206, 207);
-    color: rgb(13, 17, 20);
+    /* background-color: var(--masc); */
+    color: var(--Oscuro);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -32,11 +76,27 @@ header {
     align-items: center;
     margin-bottom: 10px;
 }
+ul{
+    margin: 20px auto;
+}
+
+li {
+    list-style: none;
+}
+li h4{
+    text-align: left;
+}
+
+li span {
+    color: chartreuse;
+    text-shadow: #152048 0 0 5px;
+    margin: 0 20px;
+}
 
 footer {
     width: 100%;
-    background-color: rgb(23, 29, 34);
-    color: aliceblue;
+    background-color: var(--Oscuro);
+    color: var(--masc);
     padding: 10px;
     text-align: center;
     margin-top: 10px;
@@ -47,24 +107,27 @@ h2,
 h3,
 h4 {
     font-family: 'neuropol';
-    width: 100%;
+    width: 90%;
     text-align: center;
+    text-shadow: var(--fem) 0 0 5px;
 }
-h1{
+
+h1 {
     letter-spacing: 8px;
+    
 }
 
 /* selectores por clase  */
 .contenedor_main {
     width: 90%;
-    background-color: rgb(252, 253, 253);
+    background-color: var(--azulTrans);
     margin: 0 auto;
 }
 
 .box_main {
     width: 100%;
     min-height: 5rem;
-    background-color: rgb(252, 253, 253);
+    background-color:var(--azulTrans);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +138,8 @@ h1{
 
 .mega_box {
     width: 30%;
-    background-color: rgb(23, 30, 35);
-    color: aliceblue;
+    background-color: var(--Oscuro);
+    color: var(--fem);
     font-size: 1.2rem;
     padding: 5px;
 }
@@ -106,18 +169,19 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.tituloGrupo h3{
+
+.tituloGrupo h3 {
     width: 20%;
     padding: 10px 20px;
-    background-color: rgb(17, 65, 106);
-    color: aliceblue;
+    background-color: var(--Medio);
+    color: var(--masc);
 }
 
 .box1 {
     width: 20%;
     height: 150px;
-    background-color: rgb(8, 32, 54);
-    color: aliceblue;
+    background-color: var(--Oscuro);
+    color: var(--masc);
     font-size: 1.8rem;
     margin: 10px;
     display: flex;
@@ -128,8 +192,8 @@ h1{
 .box2 {
     width: 20%;
     height: 150px;
-    background-color: rgb(8, 32, 54);
-    color: aliceblue;
+    background-color: var(--Oscuro);
+    color: var(--masc);
     font-size: 1.8rem;
     text-align: center;
     margin: 10px;
@@ -140,45 +204,54 @@ h1{
 
 .contenedor {
     width: 100%;
-    height: 8rem;
-    background-color: rgb(198, 200, 203);
+    min-height: 8rem;
+    /* background-color: var(--masc); */
+    font-size: 1.2rem;
     margin: 10px 0;
-
+    padding: 10px 20px;
 }
 
 .fluid1 {
     width: 100%;
-    background-color: rgb(184, 185, 187);
-
+    background-color: var(--azulTrans);
+    color: var();
+    border: solid var(--Oscuro) 1px;
 }
+.fluid1 li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    font-size: 1rem;
+}
+
 
 .fluid2 {
     width: 100%;
-    background-color: rgb(165, 166, 168);
+    background-color: var(--Claro);
 
 }
 
 .fluid3 {
     width: 100%;
-    background-color: rgb(146, 147, 148);
+    background-color: var(--Medio);
 
-    
+
 }
 
 .fluid4 {
     width: 100%;
-    background-color: rgb(126, 127, 128);
-
+    background-color: var(--Oscuro);
+    color: var(--masc);
 }
 
 .fluid5 {
     width: 100%;
-    background-color: rgb(104, 105, 105);
-
+    background-color: var(--Oscuro);
+    color: var(--fem);
 }
 
 .fluid6 {
     width: 100%;
-    background-color: rgb(76, 76, 76);
-
+    background-color: var(--Oscuro);
+    color: var(--Claro);
 }
